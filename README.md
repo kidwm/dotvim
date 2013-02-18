@@ -4,8 +4,7 @@ dotvim
 My Vim Configurations.
 
 Ref:
-http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-
+http://gmarik.info/blog/2011/05/17/chicken-or-egg-dilemma
 
 ```
 git clone https://github.com/kidwm/dotvim.git ~/.vim
@@ -13,11 +12,5 @@ ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git submodule init
 git submodule update
-```
-
-Upgrading all bundled plugins
-
-
-```
-git submodule foreach git pull origin master
+vim -u bundles.vim --noplugin +BundleInstall +qall
 ```
