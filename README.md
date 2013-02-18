@@ -12,5 +12,5 @@ ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git submodule init
 git submodule update
-vim -u bundles.vim --noplugin +BundleInstall +qall
+vim -u vundles.vim --noplugin +BundleInstall +qall
 ```

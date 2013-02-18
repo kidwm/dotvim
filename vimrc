@@ -1,2 +1,2 @@
 " Vundle and bundles configuration
-source vundles.vim
+source ~/.vim/vundles.vim
